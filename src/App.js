@@ -13,12 +13,13 @@ import {
 } from "react-router-dom";
 import Reducer from './Components/Reducer'
 import ShoppingList from './Components/ShoppingList'
+import './index.css';
 
 //Stateless/functional component
 function App() {
   //returns html and js if {}, must be wrapped by only 1
   return (
-    <div>
+    <div classname="App">
       {
       //Props are used to pass information between components
       //<HelloWorld name="Test" />

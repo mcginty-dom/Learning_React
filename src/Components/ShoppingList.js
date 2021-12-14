@@ -46,8 +46,9 @@ function ShoppingList() {
     //form lets user add to array when they enter a value
     return (
         <div>
+            <h2>Shopping List</h2>
             <form onSubmit={handleSubmit}>
-                <input ref={inputRef}/>
+                <input ref={inputRef} placeholder="Add an item..."/>
             </form>
             <button onClick={
                 () => dispatch({type: 'cls'})

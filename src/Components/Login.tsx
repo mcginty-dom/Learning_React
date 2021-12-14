@@ -99,7 +99,7 @@ function Login() {
     };
 
     return (
-        <div>
+        <>
             {isLoggedIn ? (
                 <>
                     <h1>Welcome {username}</h1>
@@ -142,7 +142,7 @@ function Login() {
                     </button>
                 </form>
             )}
-        </div>
+        </>
     )
 }
 

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #f0f0f0;
+  }
+
+  header {
+    color: #0e0e0e;
+    text-align: center;
+  }
+
+button {
+    margin-top: 20px;
+    display: block;
+  }
+  
+input {
+    margin: 0 10px;
+    width: 100px;
+  }
+  

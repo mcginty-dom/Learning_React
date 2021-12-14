@@ -3,13 +3,14 @@ import Navigation from './Navigation'
 
 function Header() {
     return (
-        <header className="border-b p-3 flex justify-between items-center">
-            <span className="font-bond">
-                App
-            </span>
-
+        <>
+            <header className="border-b p-3 flex justify-between items-center">
+                <span className="font-bond">
+                    App
+                </span>
+            </header>
             <Navigation />
-        </header>
+        </>
     )
 }
 

@@ -8,7 +8,7 @@ function CounterExample(){
 
     return (
         <div>
-            <h1>
+            <h4>
                 {count}
                 {
                     //<element event={ hookSetter(TODO)}>
@@ -19,7 +19,7 @@ function CounterExample(){
                 <button onClick={() => setCount(count-1)}>
                     Subtract
                 </button>
-            </h1>
+            </h4>
         </div>
     )
 }
