@@ -5,9 +5,9 @@ function Header() {
     return (
         <>
             <header className="border-b p-3 flex justify-between items-center">
-                <span className="font-bond">
-                    App
-                </span>
+                <h2 className="font-bond">
+                    Learning React
+                </h2>
             </header>
             <Navigation />
         </>

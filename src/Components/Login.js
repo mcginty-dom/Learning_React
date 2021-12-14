@@ -1,6 +1,8 @@
 import React, {useState, useReducer} from 'react';
 import { login } from './Utils';
 import { toast } from "react-toastify"
+import ShoppingList from './ShoppingList'
+import CounterExample from './CounterExample'
 
 function loginReducer(state, action) {
     switch (action.type) {
@@ -89,6 +91,8 @@ function Login() {
             {isLoggedIn ? (
                 <>
                     <h1>Welcome {username}</h1>
+                    <CounterExample />
+                    <ShoppingList />
                     <button onClick={
                         () => dispatch({type: 'logout'})}>
                         Log Out
